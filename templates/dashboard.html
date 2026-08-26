@@ -1,0 +1,2 @@
+{% extends 'base.html' %}{% block title %}Dashboard{% endblock %}{% block content %}<div class="heading"><span class="eyebrow">FIELD NOTES</span><h1>Welcome, {{ target['username'] }}.</h1><p>Player ID: <strong>{{ target['id'] }}</strong> · Role: {{ target['role'] }}</p></div><section class="panel"><div class="avatar"><img src="{{ url_for('files',subpath='profile/default.svg') }}" alt="Profile"></div><h2>Profile</h2><p>This is {{ target['username'] }}'s public player profile.</p></section>{% endblock %}
+
