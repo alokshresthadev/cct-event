@@ -21,7 +21,7 @@ UPLOADS_DIR = BASE_DIR / "uploads"
 FLAG_IDOR = os.environ.get("FLAG_IDOR", "flag{1d0r_1s_n3v3r_tru5t_th3_cl13nt}")
 FLAG_DIRLIST = os.environ.get("FLAG_DIRLIST", "flag{d1r3ct0ry_l1st1ng_l34ks_s3cr3ts}")
 FLAG_XSS = os.environ.get("FLAG_XSS", "flag{st0r3d_xss_runs_in_someone_elses_browser}")
-FLAG_OSINT = os.environ.get("FLAG_OSINT", "flag{kushal}")
+FLAG_OSINT = os.environ.get("FLAG_OSINT", "flag{secretary_hid_the_secret}")
 ORGANIZER_KEY = os.environ.get("CTF_ORGANIZER_KEY", "alokishrestha123")
 
 CHALLENGES = {
